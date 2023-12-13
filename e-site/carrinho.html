@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="style_car.css">
+</head>
+<body>
+
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="produtos.html">Produtos</a> |
+        <a href="quemsomos.html"> Quem somos</a> |
+        <a href="favoritos.html">Favoritos</a>
+    </nav>
+    <section>
+
+        
+    <div id="cart-actions">
+      <button onclick="clearCart()">Limpar Carrinho</button>
+      <label for="payment-method">Forma de Pagamento:</label>
+      <select id="payment-method">
+        <option value="credit-card">Cartão de Crédito</option>
+        <option value="Pix">Pix</option>
+        <option value="paypal">PayPal</option>
+        <option value="Débito">Débito</option>
+        <option value="Gerar Boleto">Gerar Boleto</option>
+        <!-- Adicione mais opções de pagamento conforme necessário -->
+      </select>
+      <button onclick="checkout()">Finalizar Compra</button>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+    &copy; 2023 Marketplace Miçangovski . Todos os direitos reservados.
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

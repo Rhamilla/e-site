@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Faça seu Login aqui</title>
+    <link rel="stylesheet" href="style_l.css">
+    </head>
+   
+<body>
+    <header>
+        <h1>Crie seu login aqui!</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">Inicio</a> |
+            <a href="produtos.html">Produtos</a> |
+            <a href="favoritos.html">Meus Favoritos</a> 
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <style>
+        /* Estilos para o link estilizado como botão */
+        .button-link {
+          display: inline-block;
+          padding: 10px 20px;
+          text-decoration: none;
+          background-color: #313436;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+    
+        /* Estilos de hover para o link estilizado */
+        .button-link:hover {
+          background-color: #0056b3;
+        }
+      </style>
+    
+    <form action="/processar-formulario" method="post">
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <!-- Campo Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Campo Telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"  placeholder="Apenas números" required>
+        <!-- O atributo pattern="[0-9]{10}" limita o campo a aceitar apenas 10 dígitos numéricos -->
+
+        <!-- Campo Endereço -->
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+        <br>
+        <!-- Botão de Envio -->
+        <a href="index.html" class="button-link">Entrar</a>
+        <br>
+        
+       
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>&copy; 2023 Marketplace Miçangovski . Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

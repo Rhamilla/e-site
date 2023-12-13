@@ -1,0 +1,65 @@
+/* Estilos para o cabeçalho (header) */
+header {
+  background-color: #993366;
+  /* Cor roxa */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  background-color: #ff66b2;
+  /* Cor rosa */
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+section h3 {
+  color: #993366;
+  /* Cor roxa */
+}
+
+section div {
+  border: 1px solid #ff66b2;
+  /* Cor rosa */
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+  background-color: #993366;
+  /* Cor roxa */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+
+ /* Estilos para o link estilizado como botão */
+ .button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #313436;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos de hover para o link estilizado */
+.button-link:hover {
+  background-color: #0056b3;
+}

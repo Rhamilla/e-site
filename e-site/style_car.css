@@ -1,0 +1,65 @@
+header {
+    background-color: #993366; /* Cor roxa */
+    
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #ff66b2; /* Cor rosa */
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+  
+  form {
+    background-color: #993366;
+    padding: 2em;
+    border-radius: 10px;
+    display: grid;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   /* Centralizar horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1em;
+  }
+  
+  /* Estilos para o rodapé (footer) */
+  footer {
+    background-color: #993366; /* Cor roxa */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
